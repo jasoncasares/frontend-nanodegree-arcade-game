@@ -107,7 +107,7 @@ for (var i = 0; i < 5; i++) {
     var y = valueY[Math.floor(Math.random() * 3)];
     var enemy = new Enemy(x,y);
     allEnemies.push(enemy);
-};
+}
 
 var player = new Player();
 
