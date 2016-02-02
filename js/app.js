@@ -100,7 +100,7 @@ Player.prototype.checkCollision = function () {
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
-(function() {
+(function () {
     var allEnemies = [];
     var valueY = [60, 140, 225];
 
@@ -109,7 +109,7 @@ Player.prototype.checkCollision = function () {
         var y = valueY[Math.floor(Math.random() * 3)];
         var enemy = new Enemy(x, y);
         allEnemies.push(enemy);
-    window['allEnemies'] = allEnemies;
+        window['allEnemies'] = allEnemies;
     }
 })();
 
